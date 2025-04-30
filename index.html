@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenti — Mindful Candle Experience</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f3f3f3, #dcdcdc);
+      color: #333;
+    }
+    header {
+      background-color: #674ea7;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 0.2rem;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .audio-player {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .qr-code {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scenti</h1>
+    <p>Your mindful candle ritual</p>
+  </header>
+
+  <div class="content">
+    <h2>Welcome to Your Moment of Calm 🌿</h2>
+    <p>Light your Scenti candle, breathe deeply, and press play below to begin your relaxation session. You deserve a break.</p>
+
+    <div class="audio-player">
+      <audio controls>
+        <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_78b8f456a5.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <p>This guided audio includes gentle ambient music and breathing instructions to help you reconnect with your inner peace.</p>
+
+    <div class="qr-code">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://scenti.relax.local/experience&size=150x150" alt="Scenti QR Code">
+      <p>Scan this QR code to return here anytime</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Scenti Co. | Handmade with care 💜
+  </footer>
+</body>
+</html>
